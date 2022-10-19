@@ -10,47 +10,57 @@
         android:id="@+id/idResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cero" />
+        android:layout_marginEnd="70dp"
+        android:text="@string/cero"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/idBoton7"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/siete" />
+                android:text="@string/siete"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/ocho" />
+                android:text="@string/ocho"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/nueve" />
+                android:text="@string/nueve"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBotonDivide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/divide" />
+                android:text="@string/divide"
+                android:textSize="34sp" />
         </TableRow>
 
         <TableRow
@@ -60,30 +70,34 @@
             <Button
                 android:id="@+id/idBoton4"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/cuatro" />
+                android:text="@string/cuatro"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/cinco" />
+                android:text="@string/cinco"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/seis" />
+                android:text="@string/seis"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBotonPor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/por" />
+                android:text="@string/por"
+                android:textSize="34sp" />
         </TableRow>
 
         <TableRow
@@ -95,28 +109,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/uno" />
+                android:text="@string/uno"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/dos" />
+                android:text="@string/dos"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBoton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/tres" />
+                android:text="@string/tres"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBotonMenos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/menos" />
+                android:text="@string/menos"
+                android:textSize="34sp" />
         </TableRow>
 
         <TableRow
@@ -126,25 +144,28 @@
 
             <Button
                 android:id="@+id/idBoton0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
-                android:text="@string/cero" />
+                android:text="@string/cero"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBotonIgual"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="@dimen/ocho"
-                android:text="@string/igual" />
+                android:backgroundTint="@color/primario_luz"
+                android:text="@string/igual"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/idBotonMas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
-                android:baselineAligned="false"
-                android:text="@string/mas" />
+                android:text="@string/mas"
+                android:textSize="34sp" />
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
