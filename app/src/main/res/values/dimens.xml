@@ -2,4 +2,5 @@
 <resources>
     <dimen name="uno">1</dimen>
     <dimen name="ocho">8</dimen>
+    <dimen name="cerodp">0dp</dimen>
 </resources>
