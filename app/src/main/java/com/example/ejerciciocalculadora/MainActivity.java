@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton0.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0){
+                if (binding.idResultado.getText().toString().equals("0")){
                     binding.idResultado.setText(binding.idBoton1.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton2.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton3.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton4.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton5.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton6.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton7.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().charAt(0) == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton8.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().charAt(0) == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBoton9.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBotonMas.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBotonMenos.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBotonPor.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                if (binding.idResultado.toString().length() == 0) {
+                if (binding.idResultado.getText().toString().equals("0")) {
                     binding.idResultado.setText(binding.idBotonDivide.getText());
                 } else {
                     binding.idResultado.setText((binding.idResultado.getText().toString()) +
