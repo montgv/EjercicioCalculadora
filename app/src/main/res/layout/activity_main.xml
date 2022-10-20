@@ -21,20 +21,23 @@
         android:id="@+id/tableLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="49dp"
+            android:layout_marginBottom="-5.5dp">
 
             <Button
                 android:id="@+id/idBoton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/siete"
                 android:textSize="34sp" />
 
@@ -43,6 +46,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/ocho"
                 android:textSize="34sp" />
 
@@ -51,6 +56,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/nueve"
                 android:textSize="34sp" />
 
@@ -59,19 +66,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/divide"
                 android:textSize="34sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-5.5dp">
 
             <Button
                 android:id="@+id/idBoton4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/cuatro"
                 android:textSize="34sp" />
 
@@ -80,6 +92,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/cinco"
                 android:textSize="34sp" />
 
@@ -88,6 +102,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/seis"
                 android:textSize="34sp" />
 
@@ -96,19 +112,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/por"
                 android:textSize="34sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-5.5dp">
 
             <Button
                 android:id="@+id/idBoton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/uno"
                 android:textSize="34sp" />
 
@@ -117,6 +138,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/dos"
                 android:textSize="34sp" />
 
@@ -125,6 +148,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/tres"
                 android:textSize="34sp" />
 
@@ -133,6 +158,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/menos"
                 android:textSize="34sp" />
         </TableRow>
@@ -140,13 +167,16 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginBottom="-5.5dp">
+            >
 
             <Button
                 android:id="@+id/idBoton0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/cero"
                 android:textSize="34sp" />
 
@@ -156,6 +186,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="@dimen/ocho"
                 android:backgroundTint="@color/primario_luz"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/igual"
                 android:textSize="34sp" />
 
@@ -164,6 +196,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="@dimen/uno"
+                android:insetTop="@dimen/cerodp"
+                android:insetBottom="@dimen/cerodp"
                 android:text="@string/mas"
                 android:textSize="34sp" />
         </TableRow>
