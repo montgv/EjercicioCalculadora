@@ -8,6 +8,8 @@ import android.view.View;
 
 import com.example.ejerciciocalculadora.databinding.ActivityMainBinding;
 
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
@@ -203,25 +205,27 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.idBotonIgual.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 String pantalla = binding.idResultado.getText().toString();
-                String[] numSeparados = pantalla.split("\\+-\\*/");
+                String[]operadores = new String[]{"\\+", "\\-", "\\/", "\\*"};
+                String[] numSeparados = pantalla.split(Arrays.toString(operadores));
                 numero1 = Integer.parseInt(numSeparados[0]);
                 numero2 = Integer.parseInt(numSeparados[1]);
 
                 if (binding.idResultado.getText().toString().contains("+")) {
                     operacion = numero1 + numero2;
-                    binding.idResultado.setText(operacion);
+                    binding.idResultado.setText(String.valueOf(operacion));
                 } else if (binding.idResultado.getText().toString().contains("-")) {
                     operacion = numero1 - numero2;
-                    binding.idResultado.setText(operacion);
+                    binding.idResultado.setText(String.valueOf(operacion));
                 } else if (binding.idResultado.getText().toString().contains("*")) {
                     operacion = numero1 * numero2;
-                    binding.idResultado.setText(operacion);
+                    binding.idResultado.setText(String.valueOf(operacion));
                 } else if (binding.idResultado.getText().toString().contains("/")) {
                     operacion = numero1 / numero2;
-                    binding.idResultado.setText(operacion);
+                    binding.idResultado.setText(String.valueOf(operacion));
                 }
             }
         });
@@ -232,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
                 numero1 = 0;
                 numero2 = 0;
 
-                binding.idResultado.setText("");
+                binding.idResultado.setText("0");
             }
         });
     }
